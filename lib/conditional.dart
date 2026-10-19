@@ -56,14 +56,38 @@
 // if else********
 
 
+// void main(){
+//     int x=9,y=7;
+//     if((x++ > y--)&&(++x < ++y)){
+//         print("condition true");
+//     }
+//     else{
+//         print("condition false");
+//     }
+//     print(x);
+//     print(y);
+// }
+
+// switch statment********
 void main(){
-    int x=9,y=7;
-    if((x++ > y--)&&(++x < ++y)){
-        print("condition true");
+    int a=7;
+    switch(a){
+        case 1:{
+            print("hello 1");
+        }
+         break;
+        case 2:
+        {
+            print("hello 2");
+        }
+        break;
+        case 3:{
+            print("hello 3");
+        }
+        break;
+        default:{
+            print("not found");
+        }
+        break;
     }
-    else{
-        print("condition false");
-    }
-    print(x);
-    print(y);
 }

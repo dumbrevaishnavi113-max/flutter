@@ -69,25 +69,49 @@
 // }
 
 // switch statment********
+// void main(){
+//     int a=7;
+//     switch(a){
+//         case 1:{
+//             print("hello 1");
+//         }
+//          break;
+//         case 2:
+//         {
+//             print("hello 2");
+//         }
+//         break;
+//         case 3:{
+//             print("hello 3");
+//         }
+//         break;
+//         default:{
+//             print("not found");
+//         }
+//         break;
+//     }
+// }
+
 void main(){
-    int a=7;
-    switch(a){
-        case 1:{
-            print("hello 1");
-        }
-         break;
-        case 2:
-        {
-            print("hello 2");
-        }
-        break;
-        case 3:{
-            print("hello 3");
-        }
-        break;
-        default:{
-            print("not found");
-        }
-        break;
+    int y=1;
+    String x="hii";
+    switch(y){
+case 1:{
+    switch(x){
+        case 'hii':{
+            print("welcome to park");
+        };
     }
+
+    }
+    break;
+    case 2:{
+        print("heyy");
+    }
+    break;
+    default:{
+        print("not found");
+    }
+    break;
 }
+    }

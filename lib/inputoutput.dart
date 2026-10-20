@@ -113,12 +113,22 @@ import 'dart:io';
 //   });
 // }
 
-void main(){
-var data = [10, "Hello", 20, "Dart", 30, "Flutter", 40];
+// void main(){
+// var data = [10, "Hello", 20, "Dart", 30, "Flutter", 40];
 
-data.forEach((item) {
-if (item is String) {
-print(item);
-}
-});
+// data.forEach((item) {
+// if (item is String) {
+// print(item);
+// }
+// });
+// }
+
+
+void main(){
+  var hello=4;
+  int i=0;
+  while(i<=hello){
+    print("welcome  to world");
+    i++;
+  }
 }

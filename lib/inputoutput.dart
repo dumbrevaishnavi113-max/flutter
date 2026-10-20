@@ -73,7 +73,7 @@
 
 import 'dart:io';
 
-void main() {
+// void main() {
 //   print("Enter a number:");
 
 //   int n = int.parse(stdin.readLineSync()!);
@@ -83,8 +83,42 @@ void main() {
 //   }
 // }
 
-var x={"a","b","c"};
-for(String i in x){
-  print(i);
+// var x={"a","b","c"};
+// for(String i in x){
+//   print(i);
+// }
+// }
+
+
+// for each***********
+
+// var hello=[1,2,3,4,5];
+// hello.forEach(( num)=>print(num));
+// }
+
+// void main() {
+//  var data = [10, "Hello", 20, "Dart", 30, "Flutter", 40];
+
+//   data.forEach((item) {
+//     if (item is int) {
+//       print(item);
+//     }
+//   });
+// }
+
+// void main(){
+//   var data=[{"name": "Vaishnavi", "age": 22}];
+//   data.forEach((item){
+//     print("Name: ${item["name"]}, Age: ${item["age"]}");
+//   });
+// }
+
+void main(){
+var data = [10, "Hello", 20, "Dart", 30, "Flutter", 40];
+
+data.forEach((item) {
+if (item is String) {
+print(item);
 }
+});
 }

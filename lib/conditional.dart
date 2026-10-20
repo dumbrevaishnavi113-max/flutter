@@ -92,26 +92,207 @@
 //     }
 // }
 
-void main(){
-    int y=1;
-    String x="hii";
-    switch(y){
-case 1:{
-    switch(x){
-        case 'hii':{
-            print("welcome to park");
-        };
-    }
+// void main(){
+//     int y=8;
+//     String x="hii";
+//     switch(y){
+// case 1:{
+//     switch(x){
+//         case 'hii':{
+//             print("welcome to park");
+//         };
+//     }
 
-    }
-    break;
-    case 2:{
-        print("heyy");
-    }
-    break;
-    default:{
-        print("not found");
-    }
-    break;
+//     }
+//     break;
+//     case 2:{
+//         print("heyy");
+//     }
+//     break;
+//     default:{
+//         print("not found");
+//     }
+//     break;
+// }
+//     }
+
+
+
+
+// examples***********************
+
+
+// void main() {
+//   int age = 20;
+
+//   if (age >= 18) {
+//     print("You can vote");
+//   }
+// }
+
+// void main() {
+//   int number = 12;
+
+//   if (number % 2 == 0) {
+//     print("Number is even");
+//   } else {
+//     print("Number is odd");
+//   }
+// }
+
+
+// void main() {
+//   int units = 500;
+
+//   if (units <= 100) {
+//     print("Low electricity usage");
+//   } else if (units <= 200) {
+//     print("Medium electricity usage");
+//   } else if (units <= 300) {
+//     print("High electricity usage");
+//   } else {
+//     print("Very high electricity usage");
+//   }
+// }
+
+
+
+// void main() {
+//   int marks = 85;
+
+//   if (marks >= 35) {
+//     print("Student is pass");
+
+//     if (marks >= 80) {
+//       print("Excellent performance");
+//     } else {
+//       print("Good performance");
+//     }
+//   } else {
+//     print("Student is fail");
+//   }
+// }
+
+
+// void main() {
+//   int age = 22;
+//   bool isGraduate = true;
+
+//   if (age >= 18 && isGraduate == true) {
+//     print("You are eligible for the job");
+//   } else {
+//     print("You are not eligible for the job");
+//   }
+// }
+
+
+// void main() {
+//   int a = 9;
+//   int b = 10;
+
+//   if ((++a <= b) && (b-- >= a)) {
+//     print("Condition is true");
+//   } else {
+//     print("Condition is false");
+//   }
+
+//   print(a);
+//   print(b);
+// }
+
+
+// void main() {
+//   int choice = 1;
+
+//   switch (choice) {
+//     case 1:
+//       print("Home");
+//       break;
+
+//     case 2:
+//       print("Profile");
+//       break;
+
+//     case 3:
+//       print("Settings");
+//       break;
+
+//     case 4:
+//       print("Logout");
+//       break;
+
+//     default:
+//       print("Invalid choice");
+//   }
+// }
+
+
+
+// void main() {
+//   int department = 8;
+//   String position = "developer";
+
+//   switch (department) {
+//     case 1:
+//       switch (position) {
+//         case "developer":
+//           print("You are in the development team");
+//           break;
+
+//         case "tester":
+//           print("You are in the testing team");
+//           break;
+
+//         default:
+//           print("Position not found");
+//       }
+//       break;
+
+//     case 2:
+//       print("You are in HR department");
+//       break;
+
+//     default:
+//       print("Department not found");
+//   }
+// }
+
+
+
+// void main(){
+//     int a=2;
+    
+//     switch(a){
+//         case 1:
+//         print("hello");
+//     break;
+
+//     case 2:
+//     print("welcome");
+//     break;
+
+//     default:
+//     print("not found");
+//     }}
+
+
+// void main() {
+//   for (int i = 0; i <= 5; i++) {
+//     print("vaishnavi");
+//   }
+// }
+
+// void main() {
+//   for (int i = 1; i <= 5; i++) {
+//     for (int j = 1; j <= i; j++) {
+//       print("*");
+//     }
+//     print("");
+//   }
+// }
+
+void main() {
+  for (int i = 5; i >= 1; i--){
+    print(" " * (5 - i) + "*" * (2 * i - 1));
+  }
 }
-    }

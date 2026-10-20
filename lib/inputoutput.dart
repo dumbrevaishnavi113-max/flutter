@@ -124,11 +124,22 @@ import 'dart:io';
 // }
 
 
+// void main(){
+//   var hello=4;
+//   int i=2;
+//   while(i<=hello){
+//     print("welcome  to world");
+//     i++;
+//   }
+// }
+
+
+
 void main(){
-  var hello=4;
-  int i=0;
-  while(i<=hello){
-    print("welcome  to world");
+  var hii=5;
+  int i=1;
+  do{
+    print("hello everyone");
     i++;
-  }
+  }while(i<=hii);
 }

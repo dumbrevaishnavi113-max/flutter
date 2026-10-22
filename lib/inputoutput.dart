@@ -71,6 +71,8 @@
 // }
 
 
+// for loop statement*************
+
 import 'dart:io';
 
 // void main() {
@@ -82,6 +84,9 @@ import 'dart:io';
 //     print("$n x $i = ${n * i}");
 //   }
 // }
+
+
+// for in loop**********
 
 // var x={"a","b","c"};
 // for(String i in x){

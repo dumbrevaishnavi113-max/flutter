@@ -276,23 +276,82 @@
 //     }}
 
 
+// for loop examples*************
+
 // void main() {
 //   for (int i = 0; i <= 5; i++) {
 //     print("vaishnavi");
 //   }
 // }
 
-// void main() {
-//   for (int i = 1; i <= 5; i++) {
-//     for (int j = 1; j <= i; j++) {
-//       print("*");
-//     }
-//     print("");
-//   }
-// }
 
 // void main() {
 //   for (int i = 5; i >= 1; i--){
 //     print(" " * (5 - i) + "*" * (2 * i - 1));
 //   }
 // }
+
+import 'dart:io';
+// void main(){
+//     for(int i=1;i<=5;i++){
+//         for(int j=1;j<= i;j++){
+//             stdout.write("*");
+//         }
+//         print("");
+//     } 
+// }
+
+void main(){
+    // print("Enter a number");
+    // int b=int.parse(stdin.readLineSync()!);
+    // for(int i=1;i<=10;i++){
+    //     print("$b x $i=${b*i}");
+    // }
+
+
+
+
+    // int n=5;
+    // for(int i=1;i<=10;i++){
+    //     print("$n x $i=${n*i}");
+    // }
+
+    // int i=1;
+    // while(i<=5){
+    //     print (i);
+    //     i++;
+    // }
+
+    // int i=1;
+    // do{
+    //     print(i);
+    //     i++;
+    // }while(i<=5);
+
+
+    // brek*&***********
+
+
+//     int count=1;
+//     while(count<=10){
+// print("hii you are inside loop$count");
+// count ++;
+// if(count==7){
+//     break;
+// }
+//     }
+//     print("hii yu are outside of loop");
+
+int count=0;
+while(count<=10){
+    count++;
+    if(count==7){
+        // print("number 4 is skipped");
+        continue;
+    }
+    print("hii you are inside loop $count");
+}
+print("yor are outside of loop");
+
+}
+

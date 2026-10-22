@@ -342,16 +342,27 @@ void main(){
 //     }
 //     print("hii yu are outside of loop");
 
-int count=0;
-while(count<=10){
-    count++;
-    if(count==7){
-        // print("number 4 is skipped");
-        continue;
-    }
-    print("hii you are inside loop $count");
-}
-print("yor are outside of loop");
+// int count=0;
+// while(count<=10){
+//     count++;
+//     if(count==7){
+//         // print("number 4 is skipped");
+//         continue;
+//     }
+//     print("hii you are inside loop $count");
+// }
+// print("yor are outside of loop");
 
+
+// labeling*
+
+
+hii1:for(int i=0;i<3;i++){
+    if(i>2){
+        print("you are inside loop");
+        break hii1;
+    }
+    print("you are still inside loop");
+}
 }
 
